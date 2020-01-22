@@ -1,0 +1,38 @@
+.pt-22{
+    padding-top: 22px;
+}
+.header{
+    float: right;
+    color: #fff;
+}
+.header span{
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 5px;
+}
+.header span:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.header .glyphicon-user{
+color:rgba(218, 107, 54, 0.95)
+}
+
+.br-bt{
+    padding-top: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.pt-10{
+    padding-top: 10px;   
+}
+.container{
+    color: #fff;
+}
+
+.RoyalFragrance{
+    font-size: 20px;
+    font-family: cursive;
+}
