@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 
+import {SlideshowModule} from 'ng-simple-slideshow';  
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +14,8 @@ import { LandingComponent } from './landing/landing.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

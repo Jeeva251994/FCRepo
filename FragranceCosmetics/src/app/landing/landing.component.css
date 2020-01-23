@@ -2,7 +2,7 @@
     padding-top: 22px;
 }
 .header{
-    float: right;
+    float: right !important;
     color: #fff;
 }
 .header span{
@@ -35,4 +35,11 @@ color:rgba(218, 107, 54, 0.95)
 .RoyalFragrance{
     font-size: 20px;
     font-family: cursive;
+}
+
+@media (min-width: 992px){
+.col-md-12 {
+    width: auto;
+    float: none;
+}
 }
