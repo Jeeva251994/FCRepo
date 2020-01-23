@@ -34,7 +34,12 @@ color:rgba(218, 107, 54, 0.95)
 
 .RoyalFragrance{
     font-size: 20px;
-    font-family: cursive;
+    font-family: Lucida;
+    text-align: center;
+}
+
+.slideshow{
+    padding-top: 10px;
 }
 
 @media (min-width: 992px){
