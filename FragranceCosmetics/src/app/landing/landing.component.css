@@ -8,7 +8,7 @@
 .header span{
     cursor: pointer;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 11px;
     padding: 5px;
 }
 .header span:hover{
@@ -33,13 +33,24 @@ color:rgba(218, 107, 54, 0.95)
 }
 
 .RoyalFragrance{
-    font-size: 20px;
-    font-family: Lucida;
-    text-align: center;
+    font: normal normal normal 15px/1.41em didot-w01-italic,serif;
 }
 
 .slideshow{
     padding-top: 10px;
+}
+.about{
+    font-family: didot-w01-italic, serif
+}
+
+.btn{
+    background-color: black;
+    padding-top: 0px;
+    outline: none;
+    font-size: 12px;
+}
+.btn:hover{
+    color:rgba(218, 107, 54, 0.95) ;
 }
 
 @media (min-width: 992px){
