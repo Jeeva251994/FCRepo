@@ -25,7 +25,7 @@
             <button type="button" class="btn">Forum</button>
             <button type="button" class="btn">Members</button>
             <button type="button" class="btn">More</button>
-          </div>
+        </div>
     </div>
     <div class='slideshow'>
         <slideshow [autoPlay]="true" [imageUrls]="imageUrls" [height]="height" [arrowSize]="arrowSize"
@@ -40,5 +40,24 @@
             future. We know that every product counts, and strive to make the entire shopping experience as rewarding as
             possible. Check it out for yourself!
         </p>
+    </div>
+    <div>
+        <h3 class='gT'>Get in Touch</h3>
+        <span>14, Ground Floor, Uniqcon Plaza, Kamaraj Salai, Karaikal</span>
+        <br>
+        <span>Email:</span>royalfragranceskkl@gmail.com
+    </div>
+    <h3 class="about">Enter Your details to get Updates</h3>
+    <div class='newArrivals'>
+        <br />
+        <form #userdetails="ngForm" (ngSubmit)="onClickSubmit(userdetails.value)">
+            <input class='nAInput' type="email" name="emailid" placeholder="Enter Name" ngModel>
+            <br />
+
+            <input class='nAInput' type="text" name="username" placeholder="Enter Email id" ngModel>
+            <br />
+
+            <input class = 'submit'type="submit" value="submit">
+        </form>
     </div>
 </div>

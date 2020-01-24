@@ -25,4 +25,7 @@ export class LandingComponent implements OnInit {
       this.imageUrls.push(obj)}
   }
 
+  onClickSubmit(data) {
+ }
+
 }

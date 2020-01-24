@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 
+import { FormsModule } from '@angular/forms';
+
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { LoginComponent } from './login/login.component';
 import { SignUPComponent } from './sign-up/sign-up.component';  
@@ -19,7 +21,8 @@ import { SignUPComponent } from './sign-up/sign-up.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlideshowModule
+    SlideshowModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
