@@ -11,6 +11,11 @@ import {SlideshowModule} from 'ng-simple-slideshow';
 import { LoginComponent } from './login/login.component';
 import { SignUPComponent } from './sign-up/sign-up.component';  
 
+
+import { NgxGalleryModule } from 'ngx-gallery';
+
+import 'hammerjs'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +27,8 @@ import { SignUPComponent } from './sign-up/sign-up.component';
     BrowserModule,
     AppRoutingModule,
     SlideshowModule,
-    FormsModule
+    FormsModule,
+    NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
